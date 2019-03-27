@@ -1,0 +1,64 @@
+.site-icon img{
+    height: 30px;
+}
+.input{
+    margin-top: 18px;
+    display: flex;
+}
+.input-group-text{
+    background-color: ghostwhite;
+}
+.navbar{
+    display: flex;
+    margin-left: auto;
+}
+.nav-link{
+    color: black;
+}
+.content .top{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/01/08/52/science-fiction-2907434_1280.jpg");
+    background-size: cover;
+    height: 650px;
+    padding: auto;
+}
+.top-text{
+    padding: 200px;
+    color: white;
+}
+.contents{
+    padding:50px;
+}
+.contents h1{
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sample{
+    text-align: center;
+    margin: 20px;
+}
+.sample .fas{
+    color: darkseagreen;
+}
+.sample h3{
+    padding: 15px 0px;
+}
+.contents2{
+    background-color: #007a87;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+.contents2 h2{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.contents2 .btn{
+    margin-top: 30px;
+    height:40px;
+    width: 270px;
+}
