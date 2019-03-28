@@ -1,3 +1,6 @@
+*{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
 .site-icon img{
     height: 30px;
 }
@@ -15,11 +18,18 @@
 .nav-link{
     color: black;
 }
+.content{
+    position: relative;
+}
+.alert{
+    height: 50px;
+    text-align: center;
+    margin-bottom: auto;
+}
 .content .top{
     background-image: url("https://cdn.pixabay.com/photo/2017/11/01/08/52/science-fiction-2907434_1280.jpg");
     background-size: cover;
     height: 650px;
-    padding: auto;
 }
 .top-text{
     padding: 200px;
@@ -51,7 +61,7 @@
     height: 400px;
     text-align: center;
     color: white;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .contents2 h2{
     padding-top: 20px;
@@ -61,4 +71,24 @@
     margin-top: 30px;
     height:40px;
     width: 270px;
+}
+.info-list{
+    display: flex;
+}
+.info-list li{
+    list-style: none;
+}
+.info-list li a{
+    color: black;
+}
+.info-list p{
+    display: inline-block;
+}
+.last{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
+.komi{
+    padding: 20px;
 }
