@@ -1,6 +1,10 @@
 *{
     font-family: 'Sawarabi Gothic', sans-serif;
 }
+.pageicon{
+    margin-top: 20px;
+    color: red;
+}
 .site-icon img{
     height: 30px;
 }
@@ -13,6 +17,7 @@
 }
 .navbar{
     display: flex;
+    justify-content: flex-end;
 }
 .nav-link{
     color: black;
@@ -69,7 +74,7 @@
     height: 400px;
     text-align: center;
     color: white;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .contents2 h2{
     padding-top: 20px;
@@ -90,6 +95,7 @@
 }
 .info-list{
     display: flex;
+    justify-content: center;
     padding-top: 50px;
 }
 .info-list li{
@@ -101,6 +107,9 @@
 }
 .info-list p{
     display: inline-block;
+}
+.listnum{
+     margin: 0px 25px;
 }
 .last{
     display: flex;
