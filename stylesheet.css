@@ -29,7 +29,8 @@
 .content .top{
     background-image: url("https://cdn.pixabay.com/photo/2017/11/01/08/52/science-fiction-2907434_1280.jpg");
     background-size: cover;
-    height: 650px;
+    background-attachment: fixed;
+    height: 600px;
 }
 .top-text{
     padding: 200px;
@@ -38,8 +39,9 @@
 .contents{
     padding:50px;
 }
-.contents h1{
+.contents h2{
     text-align: center;
+    font-weight: bold;
 }
 .image{
     display: flex;
@@ -53,8 +55,9 @@
 .sample .fas{
     color: darkseagreen;
 }
-.sample h3{
-    padding: 15px 0px;
+.sample h5{
+    padding: 18px 0px;
+    font-weight: bold;
 }
 .contents2{
     background-color: #007a87;
@@ -71,18 +74,31 @@
     margin-top: 30px;
     height:40px;
     width: 270px;
+    margin-bottom: 10px;
+}
+.contents2 a{
+    color: #ADD8E6	;
+}
+.contents2 a:hover{
+    color: white;
+    text-decoration: none;
 }
 .info-list{
     display: flex;
+    padding-top: 50px;
 }
 .info-list li{
     list-style: none;
 }
 .info-list li a{
     color: black;
+    font-size: 15px;
 }
 .info-list p{
     display: inline-block;
+}
+.ilist{
+    padding-bottom: 15px;
 }
 .last{
     display: flex;
