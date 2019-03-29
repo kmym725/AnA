@@ -2,7 +2,7 @@
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 .pageicon{
-    margin-right: 10px;
+    padding-bottom: 20px;
     color: red;
 }
 .site-icon img{
@@ -36,14 +36,15 @@
     height: auto
 }
 .top{
-    background-image: url("https://cdn.pixabay.com/photo/2017/11/01/08/52/science-fiction-2907434_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/27/18/32/siblings-862967_1280.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
 }
 .top-text{
-    color: white;
+    color: darkgreen;
     white-space: nowrap;
+    padding: 12em 4.5em;
 }
 .contents{
     padding:50px 0px 30px 0px;
