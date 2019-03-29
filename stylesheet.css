@@ -60,8 +60,8 @@
 }
 .sample{
     text-align: center;
-    padding-top: 50px;
-    margin: 15px;
+    margin: 0em 1em;
+    height: auto;
 }
 .sample .fas{
     color: darkseagreen;
